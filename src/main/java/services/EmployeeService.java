@@ -144,6 +144,7 @@ public class EmployeeService extends ServiceBase {
 
             //社員番号についてのバリデーションを行う
             validateCode = true;
+            
             //変更後の社員番号を設定する
             savedEmp.setCode(ev.getCode());
         }
